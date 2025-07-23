@@ -10,6 +10,7 @@ on:
 jobs:
 
   achievements:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -26,6 +27,7 @@ jobs:
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
 
   github-metrics:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -41,7 +43,9 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+  
   lines:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -53,6 +57,7 @@ jobs:
           plugin_lines: yes
 
   acti_comm:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -69,7 +74,8 @@ jobs:
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  iso_calender:
+  iso_calendar:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -89,6 +95,7 @@ jobs:
           plugin_isocalendar_duration: half-year
 
   habits:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -107,6 +114,7 @@ jobs:
           plugin_habits_trim: yes       # Trim unused hours on daily chart
 
   issue_pr_lang:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -127,6 +135,7 @@ jobs:
 
 
   repositories:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -144,6 +153,7 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
   
   starredtopics:
+    if: startsWith(github.event.head_commit.message, '[metric]')
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
