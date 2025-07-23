@@ -9,22 +9,22 @@ on:
 
 jobs:
 
-  achievements:
-    if: github.event_name != 'schedule' && startsWith(github.event.head_commit.message, '[metric]')
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics_img/achievements.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: ledinhtri97
-          base: achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: B      # Display achievements with rank B or higher
-          plugin_achievements_secrets: yes      # Display unlocked secrets achievements
-          plugin_achievements_display: compact  # Use compact display
-          plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
+  # achievements:
+  #   if: github.event_name != 'schedule' && startsWith(github.event.head_commit.message, '[metric]')
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: metrics_img/achievements.svg
+  #         token: ${{ secrets.METRICS_SECRET }}
+  #         committer_token: ${{ secrets.GITHUB_TOKEN }}
+  #         user: ledinhtri97
+  #         base: achievements
+  #         plugin_achievements: yes
+  #         plugin_achievements_threshold: B      # Display achievements with rank B or higher
+  #         plugin_achievements_secrets: yes      # Display unlocked secrets achievements
+  #         plugin_achievements_display: compact  # Use compact display
+  #         plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
 
   github-metrics:
     if: github.event_name != 'schedule' && startsWith(github.event.head_commit.message, '[metric]')

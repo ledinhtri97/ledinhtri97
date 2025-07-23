@@ -49,10 +49,6 @@
   <img align="center" width="49%" src="./metrics_img/github-habits.svg" />
 </a>
 <a href="https://github.com/ledinhtri97">
-    <img align="center" width="49%" src="./metrics_img/achievements.svg" />
-</a>
-
-<a href="https://github.com/ledinhtri97">
     <img align="center" width="49%" src="./metrics_img/starred_topics.svg" />
 </a>
 
