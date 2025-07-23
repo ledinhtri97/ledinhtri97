@@ -1,10 +1,6 @@
 ### Hello, I'm Tri👋 <div align='right'>![](https://komarev.com/ghpvc/?username=ledinhtri97&color=green)</div>
 
-<a href="https://ledinhtri97.github.io/" target="_blank">
-	<img src="./assets/personal-website.svg" height="24"/>
-</a>
-
-<a href="https://www.buymeacoffee.com/tridinhorg"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a tangerine&emoji=🍊&slug=tridinhorg&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff" /></a>
+<a href="https://www.buymeacoffee.com/tridinhorg" target="_blank"><img src="./assets/bmt.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## I am a AI Software Engineer 
 - 💬 Languages & Technologies: Shell, C, C++, Python
@@ -31,33 +27,33 @@
 </p> -->
 
 <a href="https://github.com/ledinhtri97">
-  <img align="center" width="49%" src="./img/header.svg" />
+  <img align="center" width="49%" src="./metrics_img/header.svg" />
 </a>
 <br/>
 <a href="https://github.com/ledinhtri97">
-  <img align="center" width="49%" src="./img/repositories.svg" />
+  <img align="center" width="49%" src="./metrics_img/repositories.svg" />
 </a>
 <a href="https://github.com/ledinhtri97">
-  <img align="center" width="49%" src="./img/acti_comm.svg" />
-</a>
-
-<a href="https://github.com/ledinhtri97">
-  <img align="center" width="49%" src="./img/iso_calender.svg" />
+  <img align="center" width="49%" src="./metrics_img/acti_comm.svg" />
 </a>
 
 <a href="https://github.com/ledinhtri97">
-    <img align="center" width="49%" src="./img/issue_pr_lang.svg" />
+  <img align="center" width="49%" src="./metrics_img/iso_calender.svg" />
 </a>
 
 <a href="https://github.com/ledinhtri97">
-  <img align="center" width="49%" src="./img/github-habits.svg" />
-</a>
-<a href="https://github.com/ledinhtri97">
-    <img align="center" width="49%" src="./img/achievements.svg" />
+    <img align="center" width="49%" src="./metrics_img/issue_pr_lang.svg" />
 </a>
 
 <a href="https://github.com/ledinhtri97">
-    <img align="center" width="49%" src="./img/starred_topics.svg" />
+  <img align="center" width="49%" src="./metrics_img/github-habits.svg" />
+</a>
+<a href="https://github.com/ledinhtri97">
+    <img align="center" width="49%" src="./metrics_img/achievements.svg" />
+</a>
+
+<a href="https://github.com/ledinhtri97">
+    <img align="center" width="49%" src="./metrics_img/starred_topics.svg" />
 </a>
 
 <!-- ##  📫 My contributions so far!
