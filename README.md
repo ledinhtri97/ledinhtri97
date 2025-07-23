@@ -62,11 +62,3 @@
 
 <!-- ##  📫 My contributions so far!
 ![](./profile-3d-contrib/profile-season-animate.svg) -->
-
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="tridinhorg" data-description="Support me on Buy me a coffee!" data-message="🍊 Tangerine Alert! 🍊
-Thanks to your sweet support, I am now the proud parent of one juicy tangerine.
-Little tangerine  small, round, and full of vitamin C (and joy).
-You didn’t just buy me fruit…
-You fueled greatness. 🍊💛
-Thank you so much!
-You're officially part of the Citrus Squad. ✨👑✨" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
