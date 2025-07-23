@@ -1,8 +1,8 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 18 * * *"
+  schedule: # every Monday at midnight UTC
+    - cron: "0 0 * * 1"
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
   push: {branches: ["main"]}
@@ -92,7 +92,7 @@ jobs:
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
 
   habits:
     if: github.event_name != 'schedule' && startsWith(github.event.head_commit.message, '[metric]')
