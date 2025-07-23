@@ -40,7 +40,7 @@ jobs:
 
           # Options
           user: ledinhtri97
-          template: classic
+          # template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
   
@@ -70,7 +70,7 @@ jobs:
 
           # Options
           user: ledinhtri97
-          template: classic
+          # template: classic
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
@@ -88,7 +88,7 @@ jobs:
 
           # Options
           user: ledinhtri97
-          template: classic
+          # template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_isocalendar: yes
@@ -106,7 +106,7 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
           user: ledinhtri97
           base: ""
-          template: classic
+          # template: classic
           plugin_habits: yes
           plugin_habits_from: 200       # Use 200 events to compute habits
           plugin_habits_days: 14        # Keep only events from last 14 days
@@ -127,7 +127,7 @@ jobs:
 
           # Options
           user: ledinhtri97
-          template: classic
+          # template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: yes
@@ -148,7 +148,7 @@ jobs:
 
           # Options
           user: ledinhtri97
-          template: classic
+          # template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
   
@@ -166,7 +166,7 @@ jobs:
 
           # Options
           user: ledinhtri97
-          template: classic
+          # template: classic
           base: starred_topics
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           ase: ""
