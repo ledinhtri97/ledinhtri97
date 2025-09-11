@@ -1,13 +1,13 @@
 ### Hello, I'm Tri👋 <div align='right'>![](https://komarev.com/ghpvc/?username=ledinhtri97&color=green)</div>
 
-<a href="https://www.buymeacoffee.com/tridinhorg" target="_blank"><img src="./assets/bmt.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://paypal.me/ldtri" target="_blank"><img src="./assets/bmt.png" alt="Buy Me A Tangerine" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## I am a AI Software Engineer 
 - 💬 Languages & Technologies: Shell, C, C++, Python
 - 👀 I’m interested in both work and research focusing on Computer Vision and Artificial Intelligence within industrial projects. My primary goal is to pursue a career as an AI Engineer, with a strong passion for developing practical AI applications. My expertise lies in areas such as Multi-Object Tracking and Re-Identification, Pose Estimation, and Object Detection. Also love to work with LLM projects, 
 - 📫 How to reach me: triledinh102097@gmail.com
 - ⚡ Fun fact: I love taking the photograph!
-- 😄 More of my projects are being uploaded in my spare time
+- 😄 More of my projects are being uploaded in my spare time: https:/trild.org
 
 ### Connect with me
 [<img align="left" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/trild/)
