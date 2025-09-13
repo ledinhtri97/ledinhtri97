@@ -2,7 +2,7 @@
 
 <a href="https://paypal.me/ldtri" target="_blank"><img src="./assets/bmt.png" alt="Buy Me A Tangerine" style="height: 60px !important;width: 217px !important;" ></a>
 
-## I am a AI Software Engineer 
+## I am a Modern Software Engineer at Earth
 - 💬 Languages & Technologies: Shell, C, C++, Python
 - 👀 I’m interested in both work and research focusing on Computer Vision and Artificial Intelligence within industrial projects. My primary goal is to pursue a career as an AI Engineer, with a strong passion for developing practical AI applications. My expertise lies in areas such as Multi-Object Tracking and Re-Identification, Pose Estimation, and Object Detection. Also love to work with LLM projects, 
 - 📫 How to reach me: triledinh102097@gmail.com
