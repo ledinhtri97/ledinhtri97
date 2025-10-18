@@ -17,7 +17,7 @@ jobs:
   #       with:
   #         filename: metrics_img/achievements.svg
   #         token: ${{ secrets.METRICS_SECRET }}
-  #         # committer_token: ${{ secrets.GITHUB_TOKEN }}
+  #         committer_token: ${{ secrets.GITHUB_TOKEN }}
   #         user: ledinhtri97
   #         base: achievements
   #         plugin_achievements: yes
@@ -36,7 +36,7 @@ jobs:
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
-          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
           user: ledinhtri97
@@ -52,7 +52,7 @@ jobs:
         with:
           filename: metrics_img/lines-of-code.svg
           token: ${{ secrets.METRICS_SECRET }}
-          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: "repositories"
           plugin_lines: yes
 
@@ -66,7 +66,7 @@ jobs:
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
-          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
           user: ledinhtri97
@@ -84,7 +84,7 @@ jobs:
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
-          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
           user: ledinhtri97
@@ -102,7 +102,7 @@ jobs:
         with:
           filename: metrics_img/github-habits.svg
           token: ${{ secrets.METRICS_SECRET }}
-          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           # config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
           user: ledinhtri97
           base: ""
@@ -123,7 +123,7 @@ jobs:
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
-          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
           user: ledinhtri97
@@ -144,7 +144,7 @@ jobs:
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
-          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
           user: ledinhtri97
@@ -162,7 +162,7 @@ jobs:
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
-          # committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
           user: ledinhtri97
